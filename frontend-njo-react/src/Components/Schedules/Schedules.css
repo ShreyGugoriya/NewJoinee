@@ -1,0 +1,169 @@
+.main_content2 {
+  width: 100%;
+  margin-left: 200px;
+  margin-top: 100px;
+  height: 200vh;
+}
+.para{
+  margin-top: 50px;
+  color: #717171;
+  line-height: 25px;
+}
+.main_content2 .info2 {
+  margin-top: 150px;
+  color: #717171;
+  line-height: 25px;
+}
+.user-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 1400px;
+  margin-left: 60px;
+}
+.right-side-user {
+  height: 1400px;
+  width: 300px;
+  background-color:#d9e0e0;
+  margin-right: 50px;
+  border-radius: 8px;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+.left-side-user {
+  height: 1200px;
+  width: 1200px;
+  margin-top: 40px;
+  /* background-color: aqua; */
+}
+.wrapper2 {
+  display: flex;
+  height: 100vh;
+  width: 100vh;
+  flex-direction: column;
+}
+
+.accordion1 {
+  width: 250rem;
+  padding-top: 40px;
+}
+
+.item1 {
+  background: #5BA3E9;
+  margin-bottom: 5px;
+  padding: 50px 20px;
+  width: 1200px;
+ 
+}
+
+.title1 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content1 {
+  color: #8b7f75;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.content.show1 {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+  width: 100% !important;
+}
+
+/* Feedback collapse */
+
+.item2 {
+  background: #5BA3E9;
+  margin-bottom: 5px;
+  padding: 50px 20px;
+  width: 1200px;
+ 
+}
+
+/* Document collapse */
+
+.item3 {
+  background: #5BA3E9;
+  margin-bottom: 5px;
+  padding: 50px 20px;
+  width: 1200px;
+ 
+}
+
+.table-ses {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.gfg {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.kit {
+  border: 3px solid red;
+  width: 500px;
+  display: contents;
+  
+}
+.kit > div {
+  /* border: 3px solid blue; */
+  height: 60px;
+  width: 700px;
+  background-color: #d9e6f3;
+ 
+  margin-top: 60px;
+}
+.user-data{
+  background-color: rgb(5, 52, 90);
+  color: white;
+  width: 150px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+.actual-data{
+  width: 150px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+  color: black;
+}
+
+.btn-welcome{
+  margin-left: 40px;
+}
+
+.stepper .line{
+  width: 2px;
+  background-color: rgb(131, 125, 125) !important;
+  height: 125px  !important;
+}    
+  
+.stepper .lead {
+  font-size: 1.1rem;
+}
+.popupppp-inner{
+  height: 55vh;
+  
+}
+.reply-user{
+  width: 500px;
+}
+.form-control{
+  width: 900px;
+}
+.modal-content{
+  background-color: white;
+}
+.modal-header{
+  border-bottom: 1px solid white !important;
+}

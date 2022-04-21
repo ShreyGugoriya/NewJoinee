@@ -1,0 +1,36 @@
+.popup {
+  /* position: relative; */
+  top: 0;
+  left: 0;
+  width: 40%;
+
+  background-color: rgba(19, 16, 2, 0.815);
+  margin-left: 20%;
+  margin-top: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  z-index: 10;
+  height: 52.5vh;
+  overflow: scroll;
+
+}
+
+.popup-inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: #fff;
+  height: 40vh;
+  margin: 32px;
+}
+
+.popup-inner .close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}

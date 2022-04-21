@@ -1,0 +1,75 @@
+body {
+  /* background-color: #F8F8F8; */
+  background-color:"#F2F3F5";
+  border-radius: 8px;
+  font-family: "Raleway", sans-serif;
+
+  /* width: 100%;
+  overflow-x: scroll; */
+  height: 100%;
+
+  max-width: 100%;
+  overflow-x: hidden;
+}
+h2 {
+  text-align: center;
+  margin-top: 5px;
+}
+.textLeft {
+  text-align: left;
+}
+.loadingDiv {
+  height: 80vh;
+  display: grid;
+  margin-top: 10px;
+  margin-left: 10px;
+  place-items: center;
+}
+.card {
+  width: 398px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-top: 2px;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+}
+.image {
+  min-width: 150px;
+  margin-right: 8px;
+}
+.states {
+  background: #f2f5f8 !important;
+  color: #000 !important;
+}
+.articles {
+  font-size: 10px;
+  color: #a1aab9;
+}
+.number1 {
+  font-weight: 500;
+}
+.followers {
+  font-size: 10px;
+  color: #a1aab9;
+}
+.number2 {
+  font-weight: 500;
+}
+.rating {
+  font-size: 10px;
+  color: #a1aab9;
+}
+.number3 {
+  font-weight: 500;
+}
+.delete-user{
+  cursor: pointer;
+  margin-top: 0.91px;
+  height: 32px;
+  width: 50px;
+  align-self: center;
+  margin-bottom: 5px;
+  background-color: white !important;
+  margin-left: 230px !important;
+  
+}

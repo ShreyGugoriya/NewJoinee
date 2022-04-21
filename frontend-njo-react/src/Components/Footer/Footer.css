@@ -1,0 +1,52 @@
+.footer-container {
+  position: relative;
+  color: white;
+  bottom: 0;
+  width: 110%;
+  margin-bottom: auto;
+  font-size: 14px;
+  /* margin-left: 120px; */
+  margin-top: 80px;
+  height: 20%;
+  background-color: #2b3b50;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h4{
+  font-size: 15px;
+  margin-left: 10px;
+}
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.facebook-logo {
+  width: 38px;
+  height: 38px;
+}
+.twitter-logo {
+  width: 38px;
+  height: 38px;
+}
+.insta-logo {
+  width: 38px;
+  height: 38px;
+}
+.col {
+  padding-top: 1px;
+}
+.list-unstyled :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.logos :hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-container a:hover {
+  text-decoration: none;
+}
+

@@ -1,0 +1,30 @@
+.main_content {
+  width: 100%;
+  margin-left: 200px; 
+  height: 100%;
+}
+
+.main_content .info {
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+
+/* body {
+  max-width: 100%;
+  overflow-x: hidden;
+
+} */
+
+.button-wrapper{
+  display: flex;
+  /* float:right; */
+  margin-left:128px;
+  align-items: center;
+  margin-top: 20px;
+  /* margin-right: -600px; */
+  /* margin-top: -43px;
+  margin-left: 51px;
+  justify-content: flex-end; */
+}

@@ -1,0 +1,31 @@
+.html .body {
+  overflow-x: hidden;
+  position: relative;
+}
+.main_content {
+  width: 100%;
+  margin-left: 200px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.main_content .info {
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.tr-table {
+  height: 70px;
+  background-color: #fff;
+  
+  box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+}
+
+
+.xyz{
+  display: flex;
+ margin-left: 66%;
+ margin-top: -70px;
+ margin-bottom: 50px;
+}

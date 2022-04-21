@@ -1,0 +1,91 @@
+.notices {
+  width: 100%;
+  margin-left: 200px;
+  margin-top: 100px;
+  height:150vh;
+  
+}
+
+.notices .info {
+  /* margin: 20px; */
+  color: #717171;
+  line-height: 25px;
+  padding-top: 100px;
+  color:black;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -40px;
+  margin-bottom: 35px;
+}
+.my-stepper{
+  margin-top: 20px;
+  margin-left: 250px;
+  height: 700px;
+  width: 1200px;
+  background-color:rgb(228, 222, 222);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.label-name{
+  font-size :  50px !important ;
+}
+.css-qivjh0-MuiStepLabel-label.Mui-active {
+  color: rgb(5, 5, 5) !important;
+  font-size: 40px !important;
+  font-weight:bold !important;
+}
+.css-qivjh0-MuiStepLabel-label.Mui-completed {
+  font-size: 30px !important;
+  color:rgb(235, 109, 59) !important;
+  font-weight: solid;
+}
+
+.info{
+  text-align: center;
+}
+.notices-right-view{
+  height: 500px;
+  width: 600px;
+  background-color: black;
+  margin-left: 300px;
+  border-radius: 16px;
+  margin-top: 15px;
+  
+}
+
+.notice-heading{
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+.css-14yr603-MuiStepContent-root{
+  border-left: 3px solid rgb(14, 13, 13) !important;
+  
+}
+.css-18st3fs-MuiButtonBase-root-MuiButton-root{
+  font-weight: bold !important;
+}
+.css-qivjh0-MuiStepLabel-label{
+  color: rgb(7, 6, 6);
+}
+.css-ahj2mt-MuiTypography-root{
+  color: red;
+}
+.css-ahj2mt-MuiTypography-root{
+  font-size: 1.55 rem !important;
+}
+/* .css-8t49rw-MuiStepConnector-line --- for stepper line */
+
+.css-8t49rw-MuiStepConnector-line{
+  height: 85px !important;
+  border-color:  black !important;
+  border-width: 0.224rem !important;
+  margin-top: 0px !important;
+}

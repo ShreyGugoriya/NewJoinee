@@ -1,0 +1,102 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: block;
+    
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background-color: #F2DCEE;
+    padding: 14px 28px;
+    border-radius: 8px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    height:50px;
+    width: 150px;
+}
+.reply {
+    width: 90%;
+    height: 150px;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .send-reply{
+      background-color: black;
+      color: white;
+      border-radius: 6px;
+      height:50px;
+      width: 150px;
+  }
+  .issue{
+      background-color:#9A9699;
+      border: 2px solid black;
+      border-radius: 5px;
+  }
+  .modal{
+      z-index: 1200;
+  }
+
+  .replyform{
+    
+        width: 99%;
+        height: 77px;
+        color: black;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        background-color:white;
+        border: 1px solid black;
+      
+  }
+ 
+  .outer-display {
+    border: 2px solid red;
+    width: 300px;
+    display: contents;
+   
+  }
+  
+  .outer-display > div {
+    border: 2px solid green;
+    height: 100px;
+  }
+  
